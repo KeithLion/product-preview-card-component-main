@@ -12,8 +12,9 @@
 body{
 background-color: var(--Cream);
 font-size: 14px;
-display: flex;
-justify-content: center;
+display: grid;
+place-content: center;
+min-height: 100vh;
 }
 
 main{
